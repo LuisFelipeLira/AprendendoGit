@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Learning Git</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="#">
+   </head>
+   <body>
+      <nav>
+         <div id="menu">
+            <li>Learning Git</li>
+            <li><a class="menuitems" href="index.html">    Home   </a></li>
+
+         </div>
+      </nav>
+      <div class="section1">
+         <div class="centralize">
+            <marquee behavior="slide" scrollamount="450" scrolldelay="1000">
+               <h1 id="Title"> Aprenda Git</h1>
+            </marquee>
+         </div>
+      </div>
+      <div class="flexi">
+         <h1 id="titulo">O que é o Git</h1>
+         <video id="video" src="Imagens/Entenda o GIT em 10 MINUTOS.mp4" type="video/mp4" width="560" height="315" controls></video>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <div id="projetos" class="section2 centralize">
+         <table>
+               
+               <td id="description"></td>
+                  <article id="centro">
+                     Git é um poderoso e sofisticado sistema para controle de versão distribuído. Ganhar entendimento de suas funcionalidades abre para os desenvolvedores uma nova e libertadora abordagem à manutenção de código. O mais certo caminho para o domínio de Git é a imersão em suas utilidades e operações, a experiência em primeira mão.
+                  </article>
+                  <BR></BR>
+               </td>
+         </table>
+      </div>
+
+      <div id="projetos" class="section3 centralize">
+         <table>
+            <tr>
+               <h1>Baixe o Git</h1>
+                  <article>
+                     <ul>
+                           <h2> Instalar o GIT no Windows: <br></h2> 
+                           Instalar o GIT no Windows é tão simples como baixar um instalador e executá-lo. Execute os seguintes passos para instalar o GIT no Windows:
+                           
+                           Acesse o site oficial e faça o download do instalador do GIT para Windows.
+                           Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de instalação. Basta seguir as instruções na tela, clicando em Next. Ao término, clique em Finish para concluir com êxito a instalação.
+                           <br>
+                           <br>
+                           Abra o prompt de comando e digite os seguintes comandos no terminal:
+                           <br>
+                           git config --global user.name "João Silva"
+                           <br>
+                           git config --global user.email "exemplo@seuemail.com.br"
+                           <br>
+                           <br>
+                           <h2> Instalar o GIT no Linux: <br></h2> 
+                           Se você é um usuário Linux, então deve estar acostumado com instalar programas e pacotes em seu computador usando comandos de instalação apt-get ou yum.<br>
+                           Instalar o GIT não é diferente:<br>
+
+                           Para usuários Debian/Ubuntu (apt-get); Abra o terminal e execute os seguintes comandos:
+                           <br>
+                           Sudo apt-get update
+                           <br> 
+                           Sudo apt-get install git<br>
+                           Verifique se a instalação ocorreu com sucesso usando git --version.<br>
+                           Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT:<br>
+                           git config --global user.name "João Silva" <br>
+                           git config --global user.email "exemplo@seuemail.com.br"<br>
+                           <br><br>
+                           <h2>Instalar o GIT no MacOS:<br></h2> 
+                           Existem muitas maneiras de instalar o GIT em um Mac. Inclusive, há uma chance de que o GIT já esteja no seu computador se você tiver o XCode instalado. Execute o seguinte comando no terminal para verificar:<br>
+                           git --version<br>
+                           Se você obtiver uma resposta como git version 2.7.0 (Apple Git-66), então você está com sorte. Caso você não tenha resposta, execute os seguintes passos:<br>
+
+                           Visite este site e faça o download do instalador mais recente para Mac. <br>
+                           Siga as instruções na tela e conclua a instalação. <br>
+
+                           Tente novamente o comando git --version para confirmar se a instalação foi bem sucedida. <br> <br>
+                           Execute os seguintes comandos no terminal para configurar seu e-mail e nome de usuário que serão associados à sua conta GIT: <br><br>
+                           git config --global user.name "João Silva" <br>
+                           git config --global user.email "exemplo@seuemail.com.br" <br>
+                     </ul>
+                  </article> 
+            </tr>
+         </table>
+      </div>
+      <hr>
+      <div id="projetos" class="section3 centralize">
+         <table>
+            <tr>
+               <h1>Como Usar o GIT</h1>
+               <td id="description">
+                  <article>
+                     <h2>Criando seu repositório</h2>
+                     Agora que o GIT está instalado e configurado no seu dispositivo, vamos explorar os conceitos básicos do GIT e como começar a usar o GIT e como
+                     Criar/configurar/verificar um repositório <br><br>
+                     Um repositório é o maior bem de qualquer projeto controlado por versão. Para transformar qualquer diretório em um repositório GIT, o simples comando git init (directory) pode ser utilizado. Uma pasta chamada .git também deve começar a existir no diretório em que o comando foi executado.
+
+                     Por outro lado, se você já tem um diretório e deseja verificar (clone-lo), você pode usar o comando git clone. Se você estiver tentando verificar um repositório local, use o seguinte comando: <br><br>
+
+                     git clone /path/to/local/repository <br>
+                     Se você pretende verificar um repositório armazenado remotamente, use: <br>
+
+                     git clone user.name@host:/path/to/remote/repository <br>
+                     Se você quiser criar um repositório use apenas git init
+
+                  </article>
+               </td>
+         
+            <tr>
+               <td colspan="2">
+                  <article>
+                     <h2>Aprendo com a prática</h2>
+                     Na mesmo repositório iremos fazer algumas práticas <br>
+                     Começe com git init para criar o repositório <br>
+                     Adicione a página ao repositório que você tenha criado. <br>
+                     Agora vamos adicionar a página “Hello, World” ao repositório. <br><br><br>
+                     <hr>
+                     EXECUTE: <br>
+                     git add hello.html <br>
+                     git commit -m "First Commit" <br>
+                     Você verá … <br><br>
+                     
+                     RESULTADO:<br>
+                     $ git add hello.html<br>
+                     $ git commit -m "First Commit"<br>
+                     [master (root-commit) 911e8c9] First Commit<br>
+                      1 files changed, 1 insertions(+), 0 deletions(-)<br>
+                      create mode 100644 hello.html<br>
+                      <br><br>
+                      <hr>
+                     Use o comando git status para checar o estado atual do repositório.
+
+                     EXECUTE: git status e você verá: <br>
+                     
+                     <br>
+                     $ git status <br>
+                     # On branch master <br>
+                     nothing to commit (working directory clean) <br>
+
+                     Vamos adicionar algumas tags HTML para a nossa saudação. Modifique os conteúdos do arquivo para:
+
+                     ARQUIVO: HELLO.HTML <br>
+                     Hello, World! <br>
+                     Confira o status do diretório de trabalho. <br>
+
+                     EXECUTE: git status e você verá … <br>
+                     <br>
+                     <hr>
+                     
+                     RESULTADO: <br>
+                     $ git status <br>
+                     # On branch master<br>
+                     # Changes not staged for commit:<br>
+                     #   (use "git add <file>..." to update what will be committed)<br>
+                     #   (use "git checkout -- <file>..." to discard changes in working directory)<br>
+                     #<br>
+                     #   modified:   hello.html<br>
+                     #<br>
+                     no changes added to commit (use "git add" and/or "git commit -a")<br> <br>
+                     <hr>
+                     Agora mande o git adicionar as modificações ao stage. Confira o status. <br>
+                     git add hello.html <br>
+                     git status e você verá …  <br><br>
+                     
+
+                     RESULTADO: <br>
+                     $ git add hello.html <br>
+                     $ git status <br>
+                     # On branch master <br>
+                     # Changes to be committed: <br>
+                     #   (use "git reset HEAD <file>..." to unstage) <br>
+                     # <br>
+                     #   modified:   hello.html <br>
+                     # <br>
+                     <hr>
+                     Modificações no hello.html foram adicionadas ao stage. Isso quer dizer que o git sabe da modificação, mas não é permanente no repositório. O próximo commit incluirá as modificações que estão no stage. <br>
+                    
+
+                     Se você decidir não fazer commit da modificação, o comando status vai te lembrar que você pode usar o comando git reset para remover essas mudanças do stage. <br>
+                     
+                     <br>
+                     <br>
+                     <h2>Commitando</h2>
+                     Adicionar algo ao stage no git permite que você continue fazendo modificações no seu diretório de trabalho e, quando decidir que quer interagir com o controle de versão, permite que guarde as mudanças em pequenos commits.
+                     <br>
+                     Pense que você editou três arquivos (a. html, b. html e c. html). Depois disso você tem que fazer commit de todas as modificações para que as mudanças em a. html e b. html sejam um único commit, enquanto as mudanças em c. html, que não são lógicamente relacionadas com as duas outras mudanças nos outros dois arquivos, sejam enviadas em um commit diferente. <br>
+                     <hr>
+                     Em teoria, você pode fazer o seguinte:: <br>
+
+                     git add a.html <br>
+                     git add b.html <br>
+                     git commit -m "Changes for a and b" <br>
+                     git add c.html <br>
+                     git commit -m "Unrelated change to c" <br>
+                     Separando a adição ao stage e o commit, você pode customizar o que vai em cada commit. <br>
+                     
+                     <br>
+                     <br>
+                     <h2>GIT PUSH</h2>
+                     Git PUSH
+                     O git pushcomando é usado para transferir ou enviar o commit, que é feito em um branch local no seu computador para um repositório remoto como o GitHub. <br> <br>
+                     Para dar push em algum repositório do GitHub por exemplo basta você Adicionar a URL copiada, que é o seu repositório remoto para onde o conteúdo local do seu repositório é enviado. <br>
+                     Usando o comando git remote add origin 'link do repositório criado no GitHub'
+                     <br> 
+                     Após isso ele ira pedir pra você logar com sua conta do repositório, e apartir desses comandos você já consegue upar seus arquivos pro Github <br>
+                     <br>
+                     <br>
+                     <h1>Comandos Importantes</h1>
+                     <p>ls - mostra todos os arquivos no espaço que você está<br>
+                        cd- abre um diretório<br>
+                        mkdir - cria um diretório <br>
+                        git init - Inicia um repositório git<br>
+                        git add - Adicionar um arquivo ao repositório<br>
+                        git commit - Commita o arquivo adicionado ao repositório. Parametro -m para comentar o commit<br>
+                        git status - mostra qual é o estado atual do seu repositório<br>
+                        git log mostra todos os commits feitos<br>
+                        git checkout - desfaz um commit<br>
+                        git clone - clonar um repositório</p><br>
+                  
+                     <br>
+                     <br>
+                  </article>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <hr>
+      <br>
+      
+      <article>
+         <H1>Refêrencias:</H1>
+         https://githowto.com/pt-BR/getting_old_versions <br><br>
+
+         https://www.datacamp.com/community/tutorials/git-push-pull?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=278443377086&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1031480&gclid=Cj0KCQiAwf39BRCCARIsALXWETwcPbw5uttAjYy7inLqXkuJSeKBvmp6GtRzE9BjRI9_AuX-j-tpEy8aAjZAEALw_wcB <br><br>
+
+         https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao/#:~:text=Instalar%20o%20GIT%20no%20Windows%3A&text=Acesse%20o%20site%20oficial%20e,concluir%20com%20%C3%AAxito%20a%20instala%C3%A7%C3%A3o.
+      </article>
+      <br>
+      <br>
+   </body>
+</html>

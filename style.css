@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    height: 100vmax;
+    font-family:monospace;
+}
+#menu{
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+    font-family: sans-serif;
+}
+#menu li{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    padding-left: 80px;
+}
+#menu li:first-child{
+    margin-right: auto;
+}
+
+nav :hover{
+    color: #379996;
+}
+#Title{
+    font-size: 150px;
+}
+.menuitems{
+    text-decoration: none;
+    color: white;
+}
+article{
+    margin: 15px;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media (max-width: 800px)
+{
+
+    #Title{
+        font-size: 90px;}
+
+    footer{
+        clear: both;
+        background-color:#0A91AB;
+        height:100px;
+        text-align:center;
+        padding:10px ;
+        }
+
+    #menu li{
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+        }
+
+    #menu{
+        display: block;
+        background-color: #302f2f;
+        margin: 0;
+        }
+    video{
+        padding-top: 50px;
+        display: flex;
+        position: relative;
+        left: 10px;  
+        }    
+}
+.imagemprojeto3 {
+    margin: 0;
+    width: 30vw;
+    height: 20vw;
+    height: 300px;
+}
+.imagemprojeto4 {
+    margin: 0;
+    width: 30vw;
+    height: 450px;
+}
+footer{
+    clear: both;
+      background-color:#0A91AB;
+      height:50px;
+      text-align:center;
+      padding:10px ;
+  }
+
+#logo{
+    padding-left: 30px;
+}
+#flexi{
+    display: flex;
+    text-align: center;
+}
+video{
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    left: 630px;  
+}
+div.videotext{
+    display: flex;
+}
+
+details{
+    font-size: 20px;
+    padding: 15px;
+    font-family:monospace;
+}
+.section1 {
+    display: flex;
+    height: 50vh;
+    background-color: #0A91AB;
+}
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.imagemprojeto {
+    margin: 0;
+    width: 30vw;
+    height: 20vw;
+    height: 340px;
+}
+.description{
+    width: 60%;
+    text-align: left"
+}
+details{
+    cursor: pointer;
+}
+#titulo{
+    text-align: center;
+    font-size: 40px;
+}
+#centro{
+    padding-left: 50px;
+    padding-right: 50px;
+}
