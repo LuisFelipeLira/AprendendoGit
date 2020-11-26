@@ -98,7 +98,7 @@ footer{
     display: flex;
     text-align: center;
 }
-video{
+iframe{
     padding-top: 50px;
     display: flex;
     position: relative;
